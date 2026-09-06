@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Video Compilation Page</title>
+</head>
+
+<body>
+    <main>
+       <h1>Video Compilation Page</h1>
+        <p>Showcasing my ability to create code for multiple video links</p>
+
+        <section>
+            <h2>Heading element</h2>
+            <p>Paragraph element</p>
+            <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/I0_951_MPE0"
+            title="video title">
+
+            </iframe>
+        </section>
+
+        <section>
+            <h2> Heading Element #2</h2>
+            <p>Paragraph element #2</p>
+            <iframe
+            width="560"
+            height="320"
+            src="https://www.youtube.com/embed/I0_951_MPE0" title="video titles">
+
+            </iframe>
+        </section>
+
+        <section>
+            <h2>Heading Element #3</h2>
+            <p>Paragraph Element #3</p>
+            <iframe
+            width="560"
+            height="325"
+            src="https://www.youtube.com/embed/I0_951_MPE0"
+            title="video titleds">
+
+            </iframe>    
+        </section> 
+    </main>
+</body>
+
+</html>
