@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="The best travel agency ever">
+      <title> Travel Agency Page </title>
+    </meta>
+    </head>
+
+    <body>
+<h1>Discover America!</h1>
+<p>Art, folklore, food, nature, and more. Choose among our wide selection of guided tours and excursions, and live an unforgettable experience exploring America.</p>
+
+<h2>Packages</h2>
+<p> No matter your budget or destination, we have a package for you</p>
+
+<ul>
+<li>
+  <a href="https://www.freecodecamp.org/learn" target="_blank"> Group Travels </a>
+  </li>
+<li> 
+  <a href="https://www.freecodecamp.org/learn" target="_blank"> Private Tours </a>
+  </li>
+</ul>
+
+<h2> Top Itineraries</h2>
+<figure> 
+  <a href="https://www.freecodecamp.org/learn" target="_blank"> <img src ="https://cdn.freecodecamp.org/curriculum/labs/colosseo.jpg" alt="colosso" >
+  </a>
+<figcaption>Colosso</figcaption>
+</fig> 
+<figure> 
+  <a href="https://www.freecodecamp.org/learn" target="_blank"> <img src="https://cdn.freecodecamp.org/curriculum/labs/alps.jpg" alt="alps">
+  </a>
+<figcaption>Alps</figcaption>
+</fig>
+<figure>
+  <a href="https://www.freecodecamp.org/learn" target="_blank"> 
+  <img src="https://cdn.freecodecamp.org/curriculum/labs/sea.jpg" alt="ocean" >
+  </a>
+<figcaption>Ocean</figcaption>
+  </body>
+</html>
