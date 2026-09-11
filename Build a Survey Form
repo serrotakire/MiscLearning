@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Taylor Swift Survey</title>
+  </head>
+
+  <body>
+    <header>
+    <h1 id="title">Taylor Swift Survey</h1>
+      <p id="description">Brief description of the survey</p>
+      </header>
+
+    
+    <main>
+    <form id="survey-form">
+      <fieldset>
+        <legend>Personal Information
+		</legend>
+		
+			<label id="name-label"
+      for="name">What is your name? (required):
+			</label>
+				<input 
+					type="text"
+					id="name"
+					name="name"
+					placeholder="e.g. Jane Doe"
+          required
+          />
+					
+			<label id="email-label" for="email">Email address</label>
+				<input
+					placeholder="example@email.com"
+					required
+					id="email"
+					type="email"
+					name="email"/>
+
+			<label id="number-label" for="number">Age</label>
+				<input 
+					type="number"
+					name="number"
+					id="number"
+					min="7"
+					max="100"
+					placeholder="27"/>
+      </fieldset>
+
+			<fieldset>
+        
+          <legend>What is your favorite Taylor Swift album?</legend>
+				  <select 
+					  name="fav-album"
+					  id="dropdown">
+						  <option value="debut">Self-titled/"Debut"
+						  </option>
+						
+						  <option value="fearless">Fearless
+						  </option>
+						
+						  <option value="speak-now">Speak Now
+						  </option>
+						
+						  <option value="red">Red
+						  </option>
+						
+						  <option value="1989">1989
+						  </option>
+						
+						  <option value="reputation">Reputation
+						  </option>
+						
+						  <option value="lover">Lover
+					    </option>
+						
+						  <option value="folklore">folklore
+						  </option>
+						
+						  <option value="evermore">evermore
+						  </option>
+						
+						  <option value="fearless-tv">Fearless (Taylor's Version)
+						  </option>
+						
+						  <option value="red-tv">Red (Taylor's Version)
+						  </option>
+						
+						  <option value="midnights">Midnights
+						  </option>
+						
+						  <option value="speak-now-tv">Speak Now (Taylor's Version)
+						  </option>
+						
+						  <option value="1989-tv">1989 (Taylor's Version)
+						  </option>
+						
+						  <option value="ttpd">The Tortured Poets Department
+						  </option>
+						
+						  <option value="showgirl">The Life of a Showgirl
+						  </option>
+						</select>
+          </fieldset>
+		  
+		  <fieldset>
+
+			<legend>Did you get to go to the Eras Tour?</legend>
+        
+
+					<input
+						id="yes-option" 
+						type="radio" 
+						name="eras-tour" 
+						value="yes" />
+				<label for="yes-option">Yes!</label>
+					<input
+						id="no-option" 
+						type="radio" 
+						name="eras-tour" 
+						value="no" />
+				<label for="no-option">Nope </label>
+		  </fieldset>
+						
+      <fieldset>
+        <legend>Have you ever seen her live?</legend>
+          
+          <input
+            id="live-yes"
+            type="checkbox"
+            value="yes"
+            />
+            <label for="live-yes">Yes!</label>
+
+           <input
+            id="live-no"
+            type="checkbox"
+            value="no"
+            /> 
+            <label for="live-no">No</label>
+      </fieldset>
+
+      <label for="comments">Why do you love Taylor?</label>
+        <textarea cols="30"
+          rows="10"
+          name="comments"
+          id="comments">
+          </textarea>
+
+				
+
+        <button
+          type="submit"
+          id="submit">Submit</button>
+        </form>
+
+    </main>
+
+
+  </body>
+</html>
